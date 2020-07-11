@@ -36,5 +36,5 @@ class TrainersController < ApplicationController
         else
             render json: {message: "Trainer not found!"}  
         end
-    end
+    end 
 end
